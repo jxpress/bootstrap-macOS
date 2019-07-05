@@ -5,6 +5,9 @@ include_recipe './cookbooks/ruby-build/install.rb'
 ## setting default ruby version
 include_recipe './cookbooks/rbenv/default_version.rb'
 
+# setup swift tools
+include_recipe './cookbooks/swiftenv/install.rb'
+
 # setup ios tools
 ## setting xcenv
 include_recipe './cookbooks/xcenv/install.rb'
