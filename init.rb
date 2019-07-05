@@ -1,5 +1,5 @@
 # setup ruby tools
-# setting rbenv
+## setting rbenv
 include_recipe './cookbooks/rbenv/install.rb'
 include_recipe './cookbooks/ruby-build/install.rb'
 ## setting default ruby version
