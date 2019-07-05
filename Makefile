@@ -1,2 +1,2 @@
 setup:
-	./bootstrap.sh
+	./bin/mitamae local init.rb
